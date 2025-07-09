@@ -97,6 +97,8 @@ A: Yes, as long as it's compatible with `AutoModelForCausalLM`.
 
 📄 **License**: MIT License – free to use, modify, and distribute.
 
+---
+
 ✨ **Author**: Made by Jasleen Kaur Matharoo  
 📧 Email: [jasleen.matharoo@s.amity.edu](mailto:jasleen.matharoo@s.amity.edu)  
 🌐 GitHub: [@Jasleen-05](https://github.com/Jasleen-05)
