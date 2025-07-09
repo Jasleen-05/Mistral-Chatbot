@@ -29,6 +29,12 @@ mistral-chatbot/
 
 ---
 
+## 🖥️ Demo
+
+![Chatbot Demo Screenshot]![image](https://github.com/user-attachments/assets/61f0fb53-b7af-40d1-8183-069b890653e6)
+
+---
+
 ## 🚀 Setup Instructions
 
 ### 1. Clone the Repo
@@ -62,7 +68,7 @@ Visit: http://localhost:5005
 
 💡 **Example Prompt**  
 **You**: What are transformers in deep learning?  
-**Bot**: Transformers are neural network architectures designed to handle sequential data using self-attention...
+**Bot**: Transformers are a type of neural network architecture commonly used in natural language processing (NLP) tasks such as language translation....
 
 ---
 
