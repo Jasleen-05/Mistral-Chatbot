@@ -60,33 +60,36 @@ python app.py
 ```
 Visit: http://localhost:5005
 
-💡 Example Prompt
-You: What are transformers in deep learning?
-Bot: Transformers are neural network architectures designed to handle sequential data using self-attention...
+💡 **Example Prompt**  
+**You**: What are transformers in deep learning?  
+**Bot**: Transformers are neural network architectures designed to handle sequential data using self-attention...
 
-❓ FAQs
-Q: Can I run it on CPU?
+---
+
+### ❓ FAQs
+
+**Q: Can I run it on CPU?**  
 A: Yes, but response time will be slower. CUDA is preferred.
 
-Q: Do I need Hugging Face keys or internet access?
+**Q: Do I need Hugging Face keys or internet access?**  
 A: No. The model runs entirely offline after downloading.
 
-Q: Can I use a different Mistral variant?
-A: Yes, as long as it's compatible with AutoModelForCausalLM.
+**Q: Can I use a different Mistral variant?**  
+A: Yes, as long as it's compatible with `AutoModelForCausalLM`.
 
-🧑‍💻 Tech Stack
-Flask (Python backend & API)
+---
 
-Transformers (Hugging Face)
+### 🧠 Tech Stack
+- **Flask** – Python backend & API  
+- **Transformers** – Hugging Face library  
+- **PyTorch** – For model inference  
+- **HTML + CSS + JS** – Clean frontend interface  
 
-PyTorch (Model Inference)
+---
 
-HTML + CSS + JS (Frontend)
+📄 **License**: MIT License – free to use, modify, and distribute.
 
-📄 License
-MIT License – free to use, modify, and distribute.
+✨ **Author**: Made by Jasleen Kaur Matharoo  
+📧 Email: [jasleen.matharoo@s.amity.edu](mailto:jasleen.matharoo@s.amity.edu)  
+🌐 GitHub: [@Jasleen-05](https://github.com/Jasleen-05)
 
-✨ Author
-Made by Jasleen Kaur Matharoo
-📧 jasleen.matharoo@s.amity.edu
-🌐 GitHub: @Jasleen-05
