@@ -23,6 +23,7 @@ mistral-chatbot/
 │ └── index.html # Frontend HTML UI
 ├── static/
 │ └── styles.css # CSS styling
+│ └── script.js
 ├── requirements.txt # Dependencies
 └── README.md
 ```
@@ -92,7 +93,8 @@ A: Yes, as long as it's compatible with `AutoModelForCausalLM`.
 - **Flask** – Python backend & API  
 - **Transformers** – Hugging Face library  
 - **PyTorch** – For model inference  
-- **HTML + CSS + JS** – Clean frontend interface  
+- **HTML + CSS + JS** – Clean frontend interface
+- **Python**
 
 ---
 
