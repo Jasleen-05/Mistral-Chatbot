@@ -66,6 +66,8 @@ python app.py
 ```
 Visit: http://localhost:5005
 
+---
+
 💡 **Example Prompt**  
 **You**: What are transformers in deep learning?  
 **Bot**: Transformers are a type of neural network architecture commonly used in natural language processing (NLP) tasks such as language translation....
