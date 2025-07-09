@@ -3,41 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chat with Mistral</title>
+  <title>🤖 Chat with Mistral</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-  <div id="chat-box">
+  <div class="background-blur"></div>
+
+  <div id="chat-box" class="glass">
     <h2>🤖 Chat with Mistral</h2>
     <div id="messages"></div>
-    <input type="text" id="message-input" placeholder="Say something..." />
-    <button onclick="sendMessage()">Send</button>
+    <div class="chat-input">
+      <input type="text" id="message-input" placeholder="Say something..." />
+      <button onclick="sendMessage()">Send</button>
+    </div>
   </div>
-
-  <script>
-    async function sendMessage() {
-      const input = document.getElementById('message-input');
-      const msg = input.value.trim();
-      if (!msg) return;
-
-      const messagesDiv = document.getElementById('messages');
-      messagesDiv.innerHTML += `<div class="msg"><span class="user">You:</span> ${msg}</div>`;
-      input.value = '';
-
-      const response = await fetch('/chat', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ message: msg })
-      });
-
-      const data = await response.json();
-      messagesDiv.innerHTML += `<div class="msg"><span class="bot">Bot:</span> ${data.response}</div>`;
-      messagesDiv.scrollTop = messagesDiv.scrollHeight;
-    }
-
-    document.getElementById("message-input").addEventListener("keydown", function(event) {
-      if (event.key === "Enter") sendMessage();
-    });
-  </script>
+<script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>
