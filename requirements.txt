@@ -9,12 +9,3 @@ transformers>=4.36.0
 # Optional - For quantized model inference (4-bit, 8-bit)
 bitsandbytes
 accelerate
-
-🔧 Notes for Installation:
-If you're on CPU only, run this instead of default PyTorch:
-
-pip install torch==2.1.0+cpu torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
-If you're on GPU (CUDA), run this:
-
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
-Replace cu118 with your specific CUDA version, like cu121, cu117, etc.
