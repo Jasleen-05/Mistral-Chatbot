@@ -9,3 +9,5 @@ transformers>=4.36.0
 # Optional - For quantized model inference (4-bit, 8-bit)
 bitsandbytes
 accelerate
+
+gunicorn
