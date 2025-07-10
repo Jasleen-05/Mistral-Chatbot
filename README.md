@@ -11,6 +11,7 @@ A locally hosted conversational chatbot powered by the **Mistral-7B** model, fin
 - 🌐 Clean web-based interface using Flask + JS.
 - 🔐 No internet access required after setup.
 - 🎨 Customizable UI with animated CSS effects.
+- Model Used: https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.1
 
 ---
 
